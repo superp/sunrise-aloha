@@ -26,13 +26,13 @@
 	-webkit-border-top-right-radius: 3px;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
-	background: url(../img/grabhandle.png) no-repeat scroll center 5px rgba(0, 0, 0, 0.4);
+	background: url(/assets/aloha/grabhandle.png) no-repeat scroll center 5px rgba(0, 0, 0, 0.4);
 }
 .aloha-floatingmenu:hover .aloha-floatingmenu-pin {
 	display: block;
 }
 .aloha-floatingmenu-pin {
-	background: url("../img/pin.png") no-repeat scroll 0 6px transparent;
+	background: url("/assets/aloha/pin.png") no-repeat scroll 0 6px transparent;
 	cursor: pointer;
 	margin-left: 5px !important;
 	width: 16px;
@@ -97,10 +97,10 @@ button.aloha-button-ol {
 	background-position: -272px 0px !important;
 }
 button.aloha-button-indent-list {
-	background-image: url(../img/text_indent.png) !important;
+	background-image: url(/assets/aloha/text_indent.png) !important;
 }
 button.aloha-button-outdent-list {
-	background-image: url(../img/text_indent_remove.png) !important;
+	background-image: url(/assets/aloha/text_indent_remove.png) !important;
 }
 button.aloha-button-a {
 	background-position: -288px 0px !important;
@@ -230,7 +230,7 @@ html body #aloha-ribbon {
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 ul.aloha-multisplit button.aloha-button {
-	background-image: url(../img/base-multi.png) !important;
+	background-image: url(/assets/aloha/base-multi.png) !important;
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	
@@ -284,10 +284,10 @@ button.aloha-multisplit-toggle {
 	border: 0;
 }
 button.aloha-multisplit-toggle-open {
-	background-image: url(../img/multisplit-open.gif);
+	background-image: url(/assets/aloha/multisplit-open.gif);
 }
 button.aloha-multisplit-toggle-close {
-	background-image: url(../img/multisplit-close.gif);
+	background-image: url(/assets/aloha/multisplit-close.gif);
 }
 ul.aloha-multisplit button {
 	border: 1px solid #cccccc;
@@ -316,7 +316,7 @@ ul.aloha-multisplit-expanded {
 	border-radius: 3px;
 }
 ul.aloha-multisplit button.aloha-button-removeFormat {
-	background-image: url(../img/removeformat.png) !important;
+	background-image: url(/assets/aloha/removeformat.png) !important;
 }
 
 /**

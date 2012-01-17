@@ -1,5 +1,3 @@
-var GENTICS_Aloha_base = '/assets/aloha/';
-
 //= require aloha/aloha
 
 //= require aloha/plugins/common/format/lib/format-plugin
@@ -14,7 +12,9 @@ var GENTICS_Aloha_base = '/assets/aloha/';
 //= require aloha/plugins/common/image/lib/image-plugin
 //= require aloha/plugins/common/undo/lib/undo-plugin
 
-
-$(function(){
-  $('[contenteditable]').aloha();
+Aloha.ready(function(){
+  Aloha.settings.jQuery = $;
+  Aloha.settings.baseUrl = '/assets/aloha';
+  
+  Aloha.jQuery('[contenteditable]').aloha();
 });

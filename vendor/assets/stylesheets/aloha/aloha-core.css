@@ -16,25 +16,25 @@
 .aloha-logo {
 	width:37px !important;
 	height:25px !important;
-	background-image: url('../img/gentics-logo.png') !important;
+	background-image: url('/assets/aloha/gentics-logo.png') !important;
 }
 .aloha-maximize {
-	background-image: url('../img/gentics-logo.png') !important;
+	background-image: url('/assets/aloha/gentics-logo.png') !important;
 }
 .aloha-fade-out {
-	background-image: url('../img/fade-out.png') !important;
+	background-image: url('/assets/aloha/fade-out.png') !important;
 	width:20px !important;
 	height:20px !important;
 }
 .aloha-fade-in {
-	background-image: url('../img/fade-in.png') !important;
+	background-image: url('/assets/aloha/fade-in.png') !important;
 	width:20px !important;
 	height:20px !important;
 }
 .aloha-maximize {
 	width:20px !important;
 	height:20px !important;
-	background-image: url('../img/maximize.png') !important;
+	background-image: url('/assets/aloha/maximize.png') !important;
 }
 .aloha-textarea {
 	overflow: hidden;
