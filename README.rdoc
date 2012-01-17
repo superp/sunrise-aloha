@@ -1,0 +1,8 @@
+= SunriseAloha
+
+== Usage
+  
+  <%= stylesheet_link_tag "sunrise-aloha/application" %>
+  <%= javascript_include_tag "sunrise-aloha/application" %>
+  
+This project rocks and uses MIT-LICENSE.

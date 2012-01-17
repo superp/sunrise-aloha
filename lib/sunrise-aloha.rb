@@ -1,0 +1,2 @@
+module SunriseAloha
+end
