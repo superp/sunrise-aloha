@@ -1,8 +1,30 @@
 = SunriseAloha
 
+== Install
+
+  gem "sunrise-aloha"
+
 == Usage
   
   <%= stylesheet_link_tag "sunrise-aloha/application" %>
   <%= javascript_include_tag "sunrise-aloha/application" %>
-  
-This project rocks and uses MIT-LICENSE.
+
+In views:
+
+  <div contenteditable="true" name="post[title]" data-url="/manage/posts/1">
+    POST TITLE
+  </div>
+
+  <div contenteditable="true" name="post[content]" data-url="/manage/posts/1">
+    POST CONTENT
+  </div>
+
+To save modified content, just call javascript code:
+
+  Aloha.saveContents();
+
+== Test
+
+  rake test
+
+Copyright (c) 2011 Aimbulance, released under the MIT-LICENSE.

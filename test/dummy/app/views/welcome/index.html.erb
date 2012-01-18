@@ -1,5 +1,15 @@
-<div contenteditable="true" id="content" style="padding:100px;">
-  <p>some contenteditable content for Aloha editor
-  <img src="/assets/rails.png"/>
-  </p>
+<div style="padding:100px;">
+  <div contenteditable="true" id="content" name="post[title]" data-url="/manage/posts/1">
+    Some contenteditable content for Aloha editor
+  </div>
+  
+  <div style="padding-top:40px;">
+    <div contenteditable="true" name="post[content]" data-url="/manage/posts/1">
+      <p><h2>Writing Plugins</h2>
+      In this guide, we will explain the plugin structure, the usage of requireJS and the plugin lifecylce in Aloha Editor.
+      <img src="/assets/rails.png"/></p>
+    </div>
+  </div>
+  
+  <input type="button" value="Save" onclick="Aloha.saveContents();" />
 </div>
