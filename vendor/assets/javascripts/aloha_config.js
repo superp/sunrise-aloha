@@ -10,7 +10,7 @@
 		ribbon: false,
 		locale: lang,
     plugins: {
-      load: "common/format, common/table, common/list, common/link, common/highlighteditables, common/block, common/undo, common/contenthandler, common/paste, common/commands, common/abbr, common/image, extra/browser, extra/linkbrowser"
+      load: "common/format, common/table, common/list, common/link, common/highlighteditables, common/block, common/undo, common/contenthandler, common/paste, common/commands, common/abbr, common/horizontalruler"
     }
   };
 })( window );
