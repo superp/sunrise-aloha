@@ -6,15 +6,9 @@ class WelcomeControllerTest < ActionController::TestCase
     assert_response :success
   end
   
-  test "should have js && css files" do
+  test "should have contenteditable div" do
     get :index
-
-    assert_select "script", {:count => 1} do
-      assert_select "[src=?]", "/assets/sunrise-aloha/application.js"
-    end
     
-    assert_select "link", {:count => 1} do
-      assert_select "[href=?]", "/assets/sunrise-aloha/application.css"
-    end
+    assert_tag "div", :attributes => {:contenteditable => "true", :id => "content"}
   end
 end
