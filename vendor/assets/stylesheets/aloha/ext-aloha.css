@@ -67,10 +67,10 @@
 	outline: none;
 }
 button.aloha-button {
-	background: url('../img/base.png') no-repeat !important;
+	background: url('/assets/aloha/base.png') no-repeat !important;
 }
 button.aloha-button-big {
-	background: url('../img/base-big.png') no-repeat !important;
+	background: url('/assets/aloha/base-big.png') no-repeat !important;
 }
 button.aloha-button-b {
 	background-position: 0px 0px;

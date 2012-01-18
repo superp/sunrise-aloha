@@ -7128,7 +7128,7 @@ body.x-body-masked .x-window-plain .x-window-mc {
 	-webkit-border-top-right-radius: 3px;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
-	background: url(../img/grabhandle.png) no-repeat scroll center 5px rgba(0, 0, 0, 0.4);
+	background: url(/assets/aloha/grabhandle.png) no-repeat scroll center 5px rgba(0, 0, 0, 0.4);
 }
 .aloha-floatingmenu:hover .aloha-floatingmenu-pin {
 	display: block;
@@ -7168,10 +7168,10 @@ body.x-body-masked .x-window-plain .x-window-mc {
 	outline: none;
 }
 button.aloha-button {
-	background: url(../img/base.png) no-repeat !important;
+	background: url(/assets/aloha/base.png) no-repeat !important;
 }
 button.aloha-button-big {
-	background: url(../img/base-big.png) no-repeat !important;
+	background: url(/assets/aloha/base-big.png) no-repeat !important;
 }
 button.aloha-button-b {
 	background-position: 0px 0px;
@@ -7198,10 +7198,10 @@ button.aloha-button-ol {
 	background-position: -272px 0px !important;
 }
 button.aloha-button-indent-list {
-	background-image: url(../img/text_indent.png) !important;
+	background-image: url(/assets/aloha/text_indent.png) !important;
 }
 button.aloha-button-outdent-list {
-	background-image: url(../img/text_indent_remove.png) !important;
+	background-image: url(/assets/aloha/text_indent_remove.png) !important;
 }
 button.aloha-button-a {
 	background-position: -288px 0px !important;
@@ -7330,7 +7330,7 @@ html body #aloha-ribbon {
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 ul.aloha-multisplit button.aloha-button {
-	background-image: url(../img/base-multi.png) !important;
+	background-image: url(/assets/aloha/base-multi.png) !important;
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	
@@ -7384,10 +7384,10 @@ button.aloha-multisplit-toggle {
 	border: 0;
 }
 button.aloha-multisplit-toggle-open {
-	background-image: url(../img/multisplit-open.gif);
+	background-image: url(/assets/aloha/multisplit-open.gif);
 }
 button.aloha-multisplit-toggle-close {
-	background-image: url(../img/multisplit-close.gif);
+	background-image: url(/assets/aloha/multisplit-close.gif);
 }
 ul.aloha-multisplit button {
 	border: 1px solid #cccccc;
@@ -7416,7 +7416,7 @@ ul.aloha-multisplit-expanded {
 	border-radius: 3px;
 }
 ul.aloha-multisplit button.aloha-button-removeFormat {
-	background-image: url(../img/removeformat.png) !important;
+	background-image: url(/assets/aloha/removeformat.png) !important;
 }
 .x-combo-list {
 	text-align: left;
@@ -7462,25 +7462,25 @@ ul.aloha-multisplit button.aloha-button-removeFormat {
 .aloha-logo {
 	width:37px !important;
 	height:25px !important;
-	background-image: url(../img/gentics-logo.png) !important;
+	background-image: url(/assets/aloha/gentics-logo.png) !important;
 }
 .aloha-maximize {
-	background-image: url(../img/gentics-logo.png) !important;
+	background-image: url(/assets/aloha/gentics-logo.png) !important;
 }
 .aloha-fade-out {
-	background-image: url(../img/fade-out.png) !important;
+	background-image: url(/assets/aloha/fade-out.png) !important;
 	width:20px !important;
 	height:20px !important;
 }
 .aloha-fade-in {
-	background-image: url(../img/fade-in.png) !important;
+	background-image: url(/assets/aloha/fade-in.png) !important;
 	width:20px !important;
 	height:20px !important;
 }
 .aloha-maximize {
 	width:20px !important;
 	height:20px !important;
-	background-image: url(../img/maximize.png) !important;
+	background-image: url(/assets/aloha/maximize.png) !important;
 }
 .aloha-textarea {
 	overflow: hidden;
@@ -7589,7 +7589,7 @@ ul.aloha-multisplit button.aloha-button-removeFormat {
 	left: 8px;
 	width: 16px;
 	height: 16px;
-	background: url(../img/arrow.png) no-repeat center center;
+	background: url(/assets/aloha/arrow.png) no-repeat center center;
 	opacity: 0.3;
 	
 }
@@ -7598,7 +7598,7 @@ ul.aloha-multisplit button.aloha-button-removeFormat {
 	
 }
 .aloha-sidebar-panel-title .aloha-sidebar-panel-title-arrow.aloha-sidebar-panel-title-arrow-down {
-	background-image: url(../img/arrow-down.png);
+	background-image: url(/assets/aloha/arrow-down.png);
 }
 .aloha-sidebar-panel-title-text {
 	margin-left: 24px;
@@ -7694,7 +7694,7 @@ ul.aloha-multisplit button.aloha-button-removeFormat {
 	position: absolute;
 	top: 5px;
 	right: 5px;
-	background: url(../img/arrow.png) no-repeat center center;
+	background: url(/assets/aloha/arrow.png) no-repeat center center;
 	width: 20px;
 	height: 20px;
 	opacity: 0.5;
@@ -7705,7 +7705,7 @@ ul.aloha-multisplit button.aloha-button-removeFormat {
 	right: auto;
 }
 .aloha-sidebar-handle-icon.aloha-sidebar-handle-icon-left {
-	background-image: url(../img/arrow-left.png);
+	background-image: url(/assets/aloha/arrow-left.png);
 }
 .aloha-sidebar-panel-parent-path {
 	background-color: #303539;
@@ -7744,7 +7744,7 @@ ul.aloha-multisplit button.aloha-button-removeFormat {
 .aloha-sidebar-panel-parent-path span {
 	display: inline-block;
 	padding: 0 10px 0 5px;
-	background: url(../img/breadcrumb-divider.png) no-repeat right center;
+	background: url(/assets/aloha/breadcrumb-divider.png) no-repeat right center;
 	opacity: 0.25;
 	
 	line-height: 1.6em;

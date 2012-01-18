@@ -67797,7 +67797,7 @@ function ( jQuery, PluginManager ) {
 					if (Aloha.settings.bundles && Aloha.settings.bundles[bundleName]) {
 						bundlePath += Aloha.settings.bundles[bundleName];
 					} else {
-						bundlePath += '../plugins/' + bundleName;
+						bundlePath += 'plugins/' + bundleName;
 					}
 
 					pluginNames.push(pluginName);
@@ -67846,7 +67846,12 @@ function ( jQuery, PluginManager ) {
 			// look for data-aloha-plugins attributes and load values
 			var
 				plugins = jQuery('[data-aloha-plugins]').data('aloha-plugins');
-
+            
+            // load aloha plugins from config
+            if ( Aloha.settings && Aloha.settings.plugins && Aloha.settings.plugins.load ) {
+              plugins = Aloha.settings.plugins.load;
+            }
+            
 			// Determine Plugins
 			if ( typeof plugins === 'string' && plugins !== "") {
 				return plugins.replace(/\s+/g, '').split(',');
