@@ -1,3 +1,3 @@
-//= require aloha_config
+//= require sunrise-aloha/config
 //= require aloha/aloha
-//= require aloha_init
+//= require sunrise-aloha/init
