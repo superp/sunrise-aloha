@@ -22,4 +22,29 @@ class LayoutTest < ActiveSupport::IntegrationCase
     #save_and_open_page
   end
   
+  test "should not show alert when content not modified" do
+    visit root_path
+    sleep 10
+    visit root_path(:next => true)
+    
+    assert_raises Selenium::WebDriver::Error::NoAlertPresentError do
+      page.driver.browser.switch_to.alert
+    end
+  end
+  
+  test "should show alert when content modified" do
+    visit root_path
+    
+    page.execute_script("$('#content').html('some new text');")
+    find("#content").click
+  
+    #sleep 10
+    
+    visit root_path(:next => true)
+    
+    #assert_nothing_raised Selenium::WebDriver::Error::NoAlertPresentError do
+      #page.driver.browser.switch_to.alert
+    #end
+  end
+  
 end
