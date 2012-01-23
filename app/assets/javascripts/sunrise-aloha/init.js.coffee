@@ -45,8 +45,7 @@ Aloha.ready ->
         $(window).unbind('beforeunload.aloha')
         $(window).bind('beforeunload.aloha', Aloha.checkContents)
       else
-        true
-      
+        true     
  
   # Enable aloha on elements with contenteditable attribute
   Aloha.jQuery('[contenteditable]').aloha()
