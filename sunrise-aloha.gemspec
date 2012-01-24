@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "sunrise-aloha/version"
+require "sunrise/aloha/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "sunrise-aloha"
-  s.version     = SunriseAloha::VERSION
+  s.version     = Sunrise::Aloha::VERSION
   s.authors     = ["Pavel Galeta, Igor Galeta"]
   s.email       = ["superp1987@gmail.com"]
   s.homepage    = "https://github.com/superp/sunrise-aloha"

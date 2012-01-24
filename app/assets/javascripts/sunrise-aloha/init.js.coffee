@@ -47,5 +47,5 @@ Aloha.ready ->
       else
         true     
  
-  # Enable aloha on elements with contenteditable attribute
-  Aloha.jQuery('[contenteditable]').aloha()
+    # Enable aloha on elements with contenteditable attribute
+    $('[contenteditable]').aloha()
