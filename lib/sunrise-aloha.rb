@@ -7,7 +7,9 @@ module SunriseAloha
   
   def self.assets
     Dir[root_path.join('vendor/assets/javascripts/aloha/**', '*.{js,css}')].inject([]) do |list, path|
-      list << Pathname.new(path).relative_path_from(root_path.join('vendor/assets/javascripts'))
+      filename = Pathname.new(path).relative_path_from(root_path.join('vendor/assets/javascripts')) 
+      list << filename unless filename == 'aloha/aloha.js'
+      list
     end
   end
 end
